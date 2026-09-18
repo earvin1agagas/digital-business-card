@@ -8,7 +8,7 @@ export default function Footer() {
         <footer className="footer-icons">
             <div className="footer-buttons">
                 <a className="footer-project" href="https://sites.google.com/view/vrbaristasimulator/about-us?authuser=0"><FontAwesomeIcon icon={ faMugHot } className="email-icon" /></a>
-                <a className="footer-github" href="https://www.linkedin.com/in/earvinagagas/" ><FontAwesomeIcon icon= { faGithub } className="email-icon" /></a>
+                <a className="footer-github" href="https://github.com/earvin1agagas" ><FontAwesomeIcon icon= { faGithub } className="email-icon" /></a>
             </div>
         </footer>
     )

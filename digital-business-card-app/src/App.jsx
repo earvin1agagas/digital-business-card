@@ -1,16 +1,14 @@
-import React from 'react'
-import './style.css'
-import Main from './components/Main'
-import Footer from './components/Footer'
-import Profile from './components/Profile'
+import React from 'react';
+import './style.css';
+import DigitalCard from './components/digital-card-componenets/DigitalCard';
+import Navbar from './components/Navbar';
 
 function App() {
 
   return (
     <div>
-      <Profile />
-      <Main />
-      <Footer />
+      <Navbar />
+      <DigitalCard />
     </div>
   )
 }
